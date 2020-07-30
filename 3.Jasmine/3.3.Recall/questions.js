@@ -1,5 +1,6 @@
 let selectElementsStartingWithA = (array) => {
-    return 'Write your method here';
+    let startsWithA = array.filter((array) => array.startsWith("a"));
+    return startsWithA
 }
 
 let selectElementsStartingWithVowel = (array) => {
